@@ -47,7 +47,7 @@ struct LocalizableFileCreatorForXML: FileCreatable {
                 let _value = value[valuekey] as? String,
                 !_value.isEmpty {
                 return """
-                <string name="\(_key)">"\(_value.replacingOccurrences(of: "\"", with: "\\\""))"</string>
+                <string name="\(_key)">\(_value.replacingOccurrences(of: "\"", with: "\\\""))</string>
                 """
             } else {
                 return nil
