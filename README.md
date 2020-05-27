@@ -50,3 +50,12 @@ outputs:
 ```sh
 $ JSONToString --json_path Strings.json
 ```
+
+## Reference Resources
+- https://medium.com/eureka-engineering/pairs-global-ios%E3%81%A7%E3%81%AE%E3%82%AF%E3%83%BC%E3%83%AB%E3%81%AA%E5%A4%9A%E8%A8%80%E8%AA%9E%E7%AE%A1%E7%90%86-b91010b063cb
+
+## CONTRIBUTING
+- There's still a lot of work to do here. We would love to see you involved. You can find all the details on how to get started in the Contributing Guide.
+
+## License
+JSONToString is released under the MIT license. See LICENSE for details.
