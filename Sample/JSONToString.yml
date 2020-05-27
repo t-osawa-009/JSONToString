@@ -1,0 +1,10 @@
+outputs:
+  - key: key
+    value_key: value_ios
+    output: Strings/Localizable.strings
+    format: strings
+    sort: asc
+  - key: key
+    value_key: value_android
+    output: Strings/strings.xml
+    format: xml
