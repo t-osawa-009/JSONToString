@@ -1,6 +1,7 @@
 # JSONToString
 
-Generate a string file from json
+Generate a string file from json.
+You can generate strings and xml from json
 
 ## Installation
 ### Makefile
