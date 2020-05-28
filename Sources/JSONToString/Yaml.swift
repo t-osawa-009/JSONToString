@@ -6,7 +6,7 @@ struct Yaml {
     let jsons: [[String: Any]]
     init(path: String) throws {
         let folder = try Folder(path: path)
-        let file = try folder.file(named: "JSONToString.yml")
+        let file = try folder.file(named: ".JSONToString.yml")
         let string = try file.readAsString()
         var items = try Yams.load_all(yaml: string)
         var _result: [[String: Any]] = []
